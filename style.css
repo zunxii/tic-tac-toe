@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Righteous", sans-serif;
+}
+body{
+    background-color: #EAF2EF;
+    text-align: center;
+}
+.heading{
+    flex-direction: column;
+}
+    
+
+.flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+    color: #B5E7D2;
+    text-shadow: 1px 1px #4a6c5d;
+}
+
+.main{
+    background-color: #EAF2EF;
+    height: 100vh;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.button{
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+}
+.button:hover{
+    transform: scale(1.08);
+}
+.start{
+    width: 200px;
+    height: 50px;
+    background-color:#B5E7D2 ;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px rgb(62, 62, 62);
+    box-shadow: 0 0 0.5rem #4a6c5d ;
+    
+}
+.reset{
+    width: 145px;
+    height: 40px;
+    background-color:#B5E7D2 ;
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    text-shadow: 1px 1px rgb(198, 196, 196);
+    box-shadow: 0 0 0.5rem #4a6c5d ;
+    margin: 10px;
+     
+}
+.new{
+    width: 145px;
+    height: 40px;
+    background-color:#0d0e0d ;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px rgb(62, 62, 62);
+    box-shadow: 0 0 0.5rem #4a6c5d ;
+    margin: 10px;
+}
+.hidden{
+    display: none;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    flex-wrap: wrap;
+    gap: 1.9vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #4a6c5d;
+    box-shadow: 0 0 1rem #4a6c5d ;
+}
+.turn{
+    font-size: 29px;
+    margin: 10px;
+    margin-top: 0px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
